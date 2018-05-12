@@ -1,41 +1,4 @@
 
-.contnr {
-    max-width: 960px;
-    position: relative;
-    margin: auto;
-}
-
-.bx1 {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    background-color: #ffffff;
-    width: 960px;
-    height: 560px;
-}
-
-.header1{
-    background-color: #ffffff;
-    color: #4aaaa5;
-    position: absolute;
-    font-size: 30px;  
-    top: 20px;
-    left: 35px; 
-    font-weight: 700;
-     
-}
-
-.header1 h1 {
-    margin-bottom: 20px; 
-    
-}
-
-.bd {
-     width: 880px;
-    border-bottom: solid 4px #dddddd;
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
  
 .Hang {
     position: absolute;
@@ -44,15 +7,6 @@
     width: 20%;
     height: 20%;
 }
-
-.RPG {
-    position: absolute;
-    top:  90px;
-    left: 260px; 
-    width: 20%;
-    height: 20%;
-}
-
 .Trivia {
     
     position: absolute;
@@ -70,14 +24,6 @@
     height: 20%;  
 }
 
-.RPS {
-    position: absolute;
-    top: 410px;
-    left: 35px;
-    width: 20%;
-    height: 20%;
-    
-}
 
 .Hang h4 {
 
@@ -90,23 +36,7 @@
     padding: 10px 63px 10px 63px;
     font-size: 15px;
     text-align:center;
-     
 }
-
- .RPG h4 {
-    color: #ffffff;
-    position: absolute;
-    top: 80px;
-    left: 0px;
-    background-color: #4aaaa5;
-    max-width: 100%;
-    padding: 10px 60px 10px 59px;
-    font-size: 15px;
-    text-align:center;
-    white-space: nowrap;
-
-}
-
  .Trivia h4 {
     color: #ffffff;
     position: absolute;
@@ -118,9 +48,7 @@
     font-size: 15px;
     text-align:center;
     white-space: nowrap;
-
 }
-
  .Rutgers h4 {
     color: #ffffff;
     position: absolute;
@@ -132,19 +60,5 @@
     font-size: 15px;
     text-align:center;
     white-space: nowrap;
-
 }
 
- .RPS h4 {
-    color: #ffffff;
-    position: absolute;
-    top: 80px;
-    right: 0px;
-    background-color: #4aaaa5;
-    max-width: 100%;
-    padding: 10px 36px 10px 23.5px;
-    font-size: 15px;
-    text-align:center;
-    white-space: nowrap;
-     
-}
