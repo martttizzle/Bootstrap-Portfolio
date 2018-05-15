@@ -136,7 +136,13 @@ p:last-of-type{
     background: #00b3ff;
     color:  #ffffff;
 }
+ /*Parallax*/
+ .parallax--bg,
+ .parallax--box {
 
+     transition: initial;
+ }
+ 
 @media(min-width: 60rem) {
     .button {
         font-size: 1.5rem;
@@ -182,6 +188,7 @@ nav a:focus {
     background-size: cover;
     background-position: center;
     padding: 10em 0;
+    /* background-attachment: fixed; */
 }
 
 @media (min-width: 60rem) {
@@ -232,6 +239,7 @@ h1 {
         background-repeat: no-repeat;
         padding-bottom: 10em;
         background-size: cover;
+        background-attachment: fixed;
  
     }
     .home-about-textbox {
