@@ -8,6 +8,9 @@
     margin: 0;
     font-family: "Muli", sans-serif;
     text-align: center;
+    background-image: url("../images/codeBackground.jpeg");
+    background-size:cover;
+    background-attachment: fixed;
   
 }
 img {
@@ -88,9 +91,7 @@ p:last-of-type{
     .title {
         font-size: 3.1rem;
     }
-    
 }
-
 /* button */
 .button {
     display: inline-block;
@@ -199,7 +200,7 @@ nav a:focus {
 }
 
 .home-about-textbox {
-background-color: #a7c3d6;
+background-color: #a7c3d6c5;
 padding: 3em;
 width: 100vw;
 margin-left: -2.5%;
@@ -210,13 +211,14 @@ position: relative;
 
  }
  .home-about-textbox h1 {
-     color: #00b3ff;
+     color: #00b3ffb4;
      position: absolute;
      left: 50%;
      transform: translateX(-50%);
      top: .70em;
-     background:#a7c3d6;
+     /* background:#a7c3d6; */
      padding: 0 .145em;
+     padding-bottom: 20em;
      
  }
 
@@ -233,6 +235,8 @@ h1 {
  @media (min-width: 60rem) {
     h1 {
         font-size: 2.5rem;
+        color: white;
+        /* background-color: black; */
     }
      .home-about {
         background-image: url(../images/minneapolisGray.jpg);
@@ -252,7 +256,7 @@ h1 {
         box-shadow: 0 0 4em 0 rgba(0,0,0,0.5);
      }
     .home-about-textbox h1 {
-        top: .53em;
+        top: .3em;
           
     }
 }
@@ -312,10 +316,48 @@ h1 {
 
    transform: translateY(0%)
 }
+
+/*Skills*/
+.skills {
+    background-image: url(../images/skillsBackground.jpeg);
+    background-repeat: no-repeat;
+        padding-bottom: 10em;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+.skills ul {
+
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills li {
+    display: block;
+    margin: 1em; 
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    font-weight: 900;
+   
+}
+.left {
+    float: left;
+}
+.center {
+    float:center;
+}
+
+.right {
+    float:right;
+}
+
+
 /*Call to action CTA*/
 
 .cta {
-    background-color:#0798ff; 
+    background-color:#ff0707a4; 
     padding: 3em 0;
     color: black; 
 }
