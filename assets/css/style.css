@@ -9,8 +9,11 @@
     font-family: "Muli", sans-serif;
     text-align: center;
     background-image: url("../images/codeBackground.jpeg");
-    background-size:cover;
+    background-size: 290px;
+    background-repeat: round;
     background-attachment: fixed;
+
+    
   
 }
 img {
@@ -185,7 +188,7 @@ nav a:focus {
 
 /* Home-Hero */
 .home-hero {
-    background-image: url(../images/deskBackground.png);
+    background-image: url(../images/quoteBackground.jpeg);
     background-size: cover;
     background-position: center;
     padding: 10em 0;
@@ -239,7 +242,7 @@ h1 {
         /* background-color: black; */
     }
      .home-about {
-        background-image: url(../images/minneapolisGray.jpg);
+     
         background-repeat: no-repeat;
         padding-bottom: 10em;
         background-size: cover;
