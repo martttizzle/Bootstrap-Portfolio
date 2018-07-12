@@ -4,61 +4,60 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MR. V Development | Vinod M Ramdin</title>
+    <title> Vinod M. Ramdin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="../Bootstrap-Portfolio/assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="Bootstrap-Portfolio/assets/css/style.css" /> -->
-
-
+        <link rel="stylesheet" type="text/css" media="screen" href="Bootstrap-Portfolio/assets/css/style.css" /> -->
 </head>
- 
-<body id="body">
-    <header>
-        <img src="assets/images/mrvLogo.png" alt="MrVDevelopmentLOGO" class="logo">
-        <!-- <img src="Bootstrap-Portfolio/assets/images/mrvLogo.png" alt="MrVDevelopmentLOGO" class="logo"> -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#abtMe">About</a>
-                </li>
-                <li>
-                    <a href="#port">Projects</a>
-                </li>
-                <li>
-                    <a href="#cont">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="home-hero parallax--bg">
-        <div class="container">
-            <h1 class="title">
-                <span class="textShwd">Vinod Martel Ramdin</span>
-                <span>Portfolio</span>
-            </h1>
-            <a href="#port" class="button button-accent">See Our Work</a>
-        </div>
+<body id="body">
+    <section>
+        <header>
+            <div class="flex">
+                <div id="particles-js">
+                    <h1 class="title">
+                        Hello, I am
+                        <span class="highlighthName">Vinod Martel Ramdin.</span>
+                        <br> I'm a full-stack web developer.
+                    </h1>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+        </header>
+
     </section>
 
-    <div class="container">
-        <section class="home-about">
-            <div id="abtMe" class="home-about-textbox parallax--box">
-
-                <h1>About Me</h1>
-                <p>My name is Vinod Martel Ramdin. I go by my middle name Martel. I love to code and learn new technology. I
-                    have always had a passion for technology. I am a huge outdoors person and an advid gamer. I love to stay
-                    fit with going to the gym or bike riding along the Mississippi River.
-                    <br>The greastest thing I can say about coding is the ability to digitize any of your ideas, which is fascinating!
-                </p>
-            </div>
-
-        </section>
-    </div>
 
     <section id="port" class="portfolio">
         <h1>Projects</h1>
@@ -159,7 +158,12 @@
 
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/script.js"></script>
-    <!-- <script src="Bootstrap-Portfolio/assets/javascript/script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log("particles.json loaded");
+        });
+    </script>
 </body>
- 
+
 </html>
