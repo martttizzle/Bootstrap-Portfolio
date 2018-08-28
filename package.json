@@ -2,9 +2,10 @@
   "name": "Bootstrap-Portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/martttizzle/Bootstrap-Portfolio/issues"
   },
-  "homepage": "https://github.com/martttizzle/Bootstrap-Portfolio#readme"
+  "homepage": "https://github.com/martttizzle/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "particlesjs": "^2.2.3"
+  }
 }
