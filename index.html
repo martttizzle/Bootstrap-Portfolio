@@ -85,49 +85,83 @@
                 <div id="test" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <h1 class="text-center">About Me</h1>
                     <p>https://www.w3schools.com/howto/howto_css_modal_images.asp</p>
-              
+
 
                 </div>
 
 
                 <div id="test1" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                   
-                        <img src="./assets/images/meTiejpg.jpg" height="50%" width="100%">
 
+                    <img id="myImg" src="./assets/images/meTiejpg.jpg" height="50%" width="100%" alt="Me">
+                    <div id="myModal" class="modal">
 
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img00">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                    </div>
 
                     <div id="test4" class=" row">
-                            <div class="picPadding col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="./assets/images/gradjpg.JPG" height="100%" width="100%">
-                     
-                     
+                        <div class="picPadding col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <img id="myImg1" src="./assets/images/gradjpg.JPG" height="100%" width="100%" alt="Graudation Day">
+                            <div id="myModal1" class="modal">
+
+                                <!-- The Close Button -->
+                                <span class="close One">&times;</span>
+
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img01">
+
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption1"> </div>
                             </div>
+                        </div>
                     </div>
 
                 </div>
                 <div id="test2" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                   
-                        <img src="./assets/images/vikes.JPG" height="50%" width="100%">
-                 
-              
 
+                    <img id="myImg2" src="./assets/images/vikes.JPG" height="50%" width="100%" alt="Vikings SKOL">
+                    <div id="myModal2" class="modal">
+
+                        <!-- The Close Button -->
+                        <span class="close Two">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img02">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption2"> </div>
+                    </div>
 
                     <div id="test3" class=" row">
                         <div class="picPadding col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <img src="./assets/images/rock.JPG" height="100%" width="100%">
+
+                            <img id="myImg3" src="./assets/images/rock.JPG" height="100%" width="100%" alt="Minnehaha Falls">
+                            <div id="myModal3" class="modal">
+
+                                <!-- The Close Button -->
+                                <span class="close Three">&times;</span>
+
+                                <!-- Modal Content (The Image) -->
+                                <img class="modal-content" id="img03">
+
+                                <!-- Modal Caption (Image Text) -->
+                                <div id="caption3"></div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-     </div>
 
             <div class="row">
 
-
             </div>
-
-
-
-
     </section>
 
 
@@ -136,29 +170,34 @@
 
 
 
-    <section >
+    <section>
         <div class="container">
-                <p>
-                        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-                      </p>
-                      <div class="row">
-                        <div class="col">
-                          <div class="collapse multi-collapse" id="multiCollapseExample1">
-                            <div class="card card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            </div>
-                          </div>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle
+                    first element</a>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2">Toggle second element</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false"
+                    aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
+                            craft beer labore wes anderson cred nesciunt sapiente ea proident.
                         </div>
-                        <div class="col">
-                          <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            </div>
-                          </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
+                            craft beer labore wes anderson cred nesciunt sapiente ea proident.
                         </div>
-                      </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -175,16 +214,25 @@
 
 
 
-    
-    <section id="cont" class="cta">
-        <div class="containeur">
-            <h1 class="titule">
-                <span class=" title-cuta">Contac </span>
 
-            </h1>
-            <a href="#" class="button button-dark">Contact</a>
-        </div>
+    <section>
+
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section id="cont" class="cta">
         <div class="containeur">
             <h1 class="titule">

@@ -1,15 +1,77 @@
-$(window).scroll(function() {
-    parallax();
-});
+// Get the modal
+var modal = document.getElementById('myModal');
+var modal1 = document.getElementById('myModal1');
+var modal2 = document.getElementById('myModal2');
+var modal3 = document.getElementById('myModal3');
 
-function parallax() {
-    var wScroll = $(window).scrollTop();
-    $(".parallax--bg").css('background-position', 
-'center ' +(wScroll*0.55) +'px');
-    $('.parallax--box').css('top', 
-    -5+(wScroll*0.01101)+'em');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img00");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img1 = document.getElementById('myImg1');
+var modalImg1 = document.getElementById("img01");
+var captionText1 = document.getElementById("caption1");
+img1.onclick = function(){
+    modal1.style.display = "block";
+    modalImg1.src = this.src;
+    captionText1.innerHTML = this.alt;
+}
+
+var img2 = document.getElementById('myImg2');
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption2");
+img2.onclick = function() {
+    modal2.style.display = "block";
+    modalImg2.src = this.src;
+    captionText2.innerHTML = this.alt;
+}
+
+var img3 = document.getElementById('myImg3');
+var modalImg3 = document.getElementById("img03");
+var captionText3 = document.getElementById("caption3");
+img3.onclick = function(){
+    modal3.style.display = "block";
+    modalImg3.src = this.src;
+    captionText3.innerHTML = this.alt;
+}
 
 
+
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var span1 = document.getElementsByClassName("One")[0];
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() { 
+  modal1.style.display = "none";
+}
+
+var span2 = document.getElementsByClassName("Two")[0];
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() { 
+  modal2.style.display = "none";
+}
+
+var span3 = document.getElementsByClassName("Three")[0];
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() { 
+  modal3.style.display = "none";
 }
 
 
@@ -19,100 +81,3 @@ function parallax() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <section id="port" class="portfolio"> 
-        <h1>Projects</h1>
-        <!-- Portfolio item 1 -->
-        <figure class="port-item">
-            <img src="assets/images/starwarsTrivia.jpeg" alt="project1">
-            <!-- <img src="Bootstrap-Portfolio/assets/images/starwarsTrivia.jpeg" alt="project1"> -->
-            <figcaption class="port-desc">
-                <p>Star Wars Trivia</p>
-                <a href="https://martttizzle.github.io/TriviaGame/" class="button button-accent button-small">Project Details</a>
-            </figcaption>
-        </figure>
-
-        <!-- Portfolio item 2 -->
-        <figure class="port-item">
-            <img src="assets/images/hangmanplanets.png" alt="project1">
-            <!-- <img src="Bootstrap-Portfolio/assets/images/hangmanplanets.png" alt="project1"> -->
-            <figcaption class="port-desc">
-                <p>Hangman Planet Edition</p>
-                <a href="https://martttizzle.github.io/Hangman-Game/" class="button button-accent button-small">Project Details</a>
-            </figcaption>
-        </figure>
-        <!-- Portfolio item 3 -->
-        <figure class="port-item">
-            <img src="assets/images/anightout.jpg" alt="project1">
-            <!-- <img src="Bootstrap-Portfolio/assets/images/anightout.jpg" alt="project1"> -->
-            <figcaption class="port-desc">
-                <p>A Night Out</p>
-                <a href="https://jkampa3.github.io/Team_Project_1/" class="button button-accent button-small">Project Details</a>
-            </figcaption>
-        </figure>
-        <!-- Portfolio item 4 -->
-        <figure class="port-item">
-            <img src="assets/images/placeHolder4.jpeg" alt="project1">
-            <!-- <img src="Bootstrap-Portfolio/assets/images/placeHolder4.jpeg" alt="project1" > -->
-            <figcaption class="port-desc">
-                <p>Bamazon MySQL</p>
-                <a href="https://martttizzle.github.io/Bamazon/" class="button button-accent button-small">Project Details</a>
-            </figcaption>
-        </figure>
-        <!-- Portfolio item 5 -->
-        <figure class="port-item">
-            <img src="assets/images/placeHolder5.jpg" alt="project1">
-            <!-- <img src="Bootstrap-Portfolio/assets/images/placeHolder5.jpg" alt="project1"> -->
-            <figcaption class="port-desc">
-                <p>Project Title 5</p>
-                <a href="" class="button button-accent button-small">Project Details</a>
-            </figcaption>
-        </figure>
-        <!-- Portfolio item 6 -->
-        <figure class="port-item">
-            <img src="assets/images/placeHolder6.jpg" alt="project1">
-            <!-- <img src="Bootstrap-Portfolio/assets/images/placeHolder6.jpg" alt="project1"> -->
-            <figcaption class="port-desc">
-                <p>Project Title 6</p>
-                <a href="" class="button button-accent button-small">Project Details</a>
-            </figcaption>
-        </figure>
-
-
-    </section>  
-
-    <section id="skill" class="skills">
-        <div class="container">
-            <h1>Skills</h1>
-
-            <ul class="left">
-                <li>HTML5 & CSS3</li>
-                <li>Bootstrap 4</li>
-            </ul>
-            <ul class="center">
-                <li>JavaScript & jQuery</li>
-                <li>Express & Node.js</li>
-            </ul>
-            <ul class="right">
-                <li>Mongo DB & MySQL </li>
-                <li>React & Java</li>
-            </ul>
-        </div>
-    </section>*/
