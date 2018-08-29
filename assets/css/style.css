@@ -1,136 +1,239 @@
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Raleway';
-    margin: 0px;
+  font-family: "Raleway";
+  margin: 0px;
 }
 
-/****** HEADER *****/
+/********************** HEADER *******************************/
 header {
-    background-color: #252934;
-    height: 100vh;
-    padding: 12.5%; 
+  background-color: #252934;
+  height: 100vh;
+  padding: 12.5%;
 }
- 
+
 /* The Name plate & message */
-.title{
-    font-family: "Raleway";
-    color: #fff;
-    font-size: 50px;
-    line-height: 60px;
+.title {
+  font-family: "Raleway";
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
 }
 /* Highlight name */
-.highlighthName{
-    font-weight: bold;
-    color: #E31B6D;
+.highlighthName {
+  font-weight: bold;
+  color: #e31b6d;
 }
 /*Button*/
 #seeWorkBtn {
-    color: white;
-    border: 2px solid white;
-    text-align:center;   
-    font-size: 50px; 
-    border-radius: 30%;
-    margin-top: 2.5%;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 30%;
+  margin-top: 2.5%;
 }
 
 #seeWorkBtn:hover {
-    background-color: #E31B6D; 
+  background-color: #e31b6d;
 }
 
 /*Nav Shrink*/
-nav{ 
-    position: fixed;
-    width: 100%;
-    height: 65px;  
-    background-color: rgb(255, 255, 255);
+nav {
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  background-color: rgb(255, 255, 255);
 }
 
-footer{
-     
+footer {
+  text-align: center;
+  background-color: #e31b6d;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+}
+
+/********************About Me*******************************/
+.about{
+
+    height: 100vh;
+    background-color: rgb(102, 255, 214);
+}
+#test{
+   
+    height:100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid blue;
+}
+
+
+#test1{
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgb(182, 121, 201);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#test2{
+ 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 247, 0);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#test3{
+   
+    height: 50%;
+    width: 100%;
+    background-color: rgb(0, 115, 255);
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+#test4{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 0, 13);  
+    margin-left: 0px;
+    margin-right: 0px;
+   
+  
+}
+
+.picPadding {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************MEDIA QUERIES**********************************/
+
+
+/********Media Query Header max-768px***********/
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        padding: 25%;
+      }
+
+
+  .title {
     text-align: center;
-    background-color: #E31B6D; 
+    font-family: "Raleway";
+    color: #fff;
+    font-size: 32px;
+    line-height: 40px;
+    
+  }
+
+  .highlighthName {
+    font-weight: bold;
+    color: #e31b6d;
+  }
+
+  #seeWorkBtn {
+    color: white;
+    border: 1.5px solid white;
+    padding: 5px;
+    font-size: 32px;
+    border-radius: 30%;
+    margin-top: 2.5%;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    padding: 5%;
+    background-color: black;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #e31b6d;
     color: #fff;
     bottom: 0;
     width: 100%;
     height: 65px;
-
-
+  }
 }
 
+/* ************ 576 max pixels **********/
+@media only screen and (max-width: 576px) {
+    header {
+        padding-top: 80%;
+      }
 
-
-
-
-/*Media Query Header max-570px*/
-
-@media only screen and (max-width: 600px) { 
-    .title{
-    text-align: center;
+  .title {
+    /* text-align: center; */
     font-family: "Raleway";
-    color: #fff;
-    font-size: 18px;
-    line-height: 25px;
-    float: none;
-    }
+    color: rgb(255, 247, 0);
+    font-size: 12px;
+    line-height: 15px;
+  }
 
-    .highlighthName{
-        font-weight: bold;
-        color: #E31B6D;
-    }
+  .highlighthName {
+    font-weight: bold;
+    color: #e31b6d;
+  }
 
-    #seeWorkBtn {
-         
-        color: white;
-        border: 1.5px solid white;
-        padding: 5px;
-        font-size: 18px;
-        border-radius: 30%;
-    }
+  #seeWorkBtn {
     
-    nav {
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 40%;
+    font-size: 12px;
+    margin-top: 2.5%;
+    
+  }
+  nav {
     position: fixed;
     width: 100%;
     height: 65px;
-    padding: 5% ;
+    padding: 5%;
     background-color: black;
-    }
+  }
+
+  footer {
+    text-align: center;
+    background-color: #e31b6d;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+  }
 }
-
-
-/* > 374 max pixels */
-@media only screen and (max-width: 374px) {
-
-        .title {
-        /* text-align: center; */
-        font-family: "Raleway";
-        color: rgb(255, 247, 0);
-        font-size: 12px;
-        line-height: 15px;
-        }
-
-        .highlighthName{
-            font-weight: bold;
-            color: #E31B6D;
-        } 
-
-        #seeWorkBtn {
-            display:inline;
-            color: white;
-            border: 1.5px solid white;
-            border-radius: 30%;
-            font-size: 12px; 
-        }
-        nav {
-            position: fixed;
-            width: 100%;
-            height: 65px;
-            padding: 5% ;
-            background-color: black;
-            }
-
- }
- 
