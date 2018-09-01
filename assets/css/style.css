@@ -54,7 +54,7 @@ nav {
 /**Header Titles*/
 .sectionTitles {
   padding-top: 70px;
-  padding-bottom: 90px;
+  padding-bottom: 65px;
   padding-left: 0px;
   padding-right: 0px;
   color: #252934;
@@ -169,7 +169,7 @@ width: 120px;
   text-align: block;
   color: #000000;
   font-weight: 900;
-  font-size: 14.5px;
+  font-size: 16px;
   letter-spacing: 1.1px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1057,6 +1057,15 @@ button.btn-outline-primary:hover {
     margin-bottom: 5%;
   }
 
+  footer {
+    text-align: center;
+    background-color: #252934;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    border-top: 25px solid #e31b6d;
+  }
+
 }
 
 /********Media Query Header max-992px***********/
@@ -1470,6 +1479,15 @@ button.btn-outline-primary:hover {
   form {
     margin-bottom: 5%;
   }
+
+  footer {
+    text-align: center;
+    background-color: #e31b6d;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    border-top: 25px solid #252934;
+  }
 }
 
 
@@ -1882,6 +1900,15 @@ button.btn-outline-primary:hover {
   form {
     margin-bottom: 5%;
   }
+
+  footer {
+    text-align: center;
+    background-color: #e31b6d;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    border-top: 22px solid #252934;
+  }
 }
 
 /********************************* 576 max pixels *************************************/
@@ -2288,6 +2315,15 @@ button.btn-outline-primary:hover {
   }
   form {
     margin-bottom: 5%;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #e31b6d;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    border-top: 20px solid #252934;
   }
 }
 
@@ -2697,5 +2733,15 @@ button.btn-outline-primary:hover {
     color: blue;
     font-weight: bold;
   }
+
+  footer {
+    text-align: center;
+    background-color: #e31b6d;
+    color: #fff;
+    bottom: 0;
+    height: 100%;
+    border-top: 18px solid #252934;
+  }
+  
 
 }
