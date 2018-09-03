@@ -132,49 +132,37 @@ width: 100px;
 }
 
 #test {
-  
   background-color: rgb(255, 255, 255);
   margin-right: 0px;
-  
 }
 /*Tie pic*/
 #test1 {
-  
   background-color: rgb(255, 255, 255);
   padding-left: 0px;
   padding-right: 0px;
- 
-  
 }
 
 /*VIkings Pic*/
 #test2 {
-   
   background-color: rgb(255, 255, 255);
   padding-left: 0px;
   padding-right: 0px;
-  
 }
 
 
 /*graduation pic*/
 #test3 {
-  
   background-color: rgb(255, 255, 255);
   padding-left: 0px;
   padding-right: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  
-  
 }
 /*Rock Picture*/
 #test4 {
- 
   background-color: rgb(255, 255, 255);
   margin-left: 0px;
   margin-right: 0px;
- 
 }
 
 .picPadding {
