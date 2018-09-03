@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head id="homes">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Vinod M. Ramdin</title>
+    <link rel="icon" href="./assets/images/mrvLogo.png" sizes="196x196">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -14,10 +15,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
-
 </head>
 <!-- Use .title css for media quieries -->
 
@@ -34,7 +33,6 @@
                 <div class="row">
                     <h2 class="text-center title  col-xs-6 col-sm-12 col-md-12 col-lg-12"> I'm a full-stack web developer.</h2>
                 </div>
-
             </div>
             <div class=" col text-center">
                 <button id="seeWorkBtn" type="button" class="  col-12  btn btn-outline-dark">See My Work
@@ -42,153 +40,113 @@
             </div>
         </header>
     </section>
-
     <section>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand">
-                <span class="highlighthName">Vinod Martel Ramdin</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div id='fixedTop' class="container-fluid naver ">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand">
+                    <span class="highlighthName">Vinod Martel Ramdin</span>
+                </a>
+                <button id='nav-btn' class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><div class="text-center dark">Menu</div></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="myNav">
-                <ul class="navbar-nav navbar-dark bg-dark highlighthName mr-auto">
+                <div class="collapse navbar-collapse" id="myNav">
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                    <ul id='navLinks' class="navbar-nav">
+                        <li class="ml-3 active">
+                            <a href="#" style="color:white">Home</a>
+                        </li>
+                        <li class="ml-3">
+                            <a href="#abtsm" style="color:white">About Me</a>
+                        </li>
+                        <li class="ml-3">
+                            <a href="#skills" style="color:white">Skills</a>
+                        </li>
+                        <li class="ml-3">
+                            <a  href="#projects" style="color:white">Projects</a>
+                        </li>
+                        <li class="ml-3 ">
+                                <a href="#contacts" style="color:white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </section>
-
     <section>
-        <h1 class="text-center sectionTitles">ABOUT ME
+        <h1 id="abtsm" class="text-center sectionTitles">ABOUT ME
             <hr/>
         </h1>
     </section>
-
     <section>
-        <div class="container  about">
+        <div class="container about">
             <div class="row about">
-                <div id="test" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <h5 class="text-center highlighthName">Passion</h5>
-                    <div class="row">
-                        <p><img class="imgWrap " src="./assets/images/cloudpng.png"> I love technology because I believe
-                            in progress. People inevitably use technology to improve lives and help others.We spread knowledge,
-                            make tasks easier, and make systems more efficient.”I love technology because I believe in progress.
-                            People inevitably use technology to improve lives and help others. We spread knowledge, make
-                            tasks easier, and make systems more efficient.I love technology because I believe in progress.”</p>
-                    </div>
-
-                    <h5 class="text-center highlighthName">Creativity</h5>
-                    <div class="row">
-                        <p>I love technology because I believe in progress. People inevitably use technology to improve lives
-                            and help others.<img class="imgWrap1" src="./assets/images/headbulbpng.png"> We spread knowledge,
-                            make tasks easier, and make systems more efficient.”I love technology because I believe in progress.I
-                            love technology because I believe in progress.I love technology because I believe in progress.I
-                            love technology because I believe in progress.I love techno .</p>
-                    </div>
-
-                    <h5 class="text-center highlighthName">Fun</h5>
-                    <div class="row">
-                        <p><img class="imgWrap2 " src="./assets/images/controllerpng.png">I believe in progress.I love technology
-                            because I believe in progress.I love technology because I believe in progress.I love technology
-                            because I believe in progress. cause I believe in progresI believe in progress.I love technology
-                            because I believe in progress. gy because I believe in progress.I love technology because I believe
-                            in progress.I love technology because I believe in progress</p>
-                    </div>
+                <div id="test" class="col-sm-12 col-md-4 ">
+                    <h5 class="text-center mt-1 highlighthName">Passion</h5>
+                    <p class=" paraG"><img class="imgWrap img-responsive" src="./assets/images/cloudpng.png"> 
+                        I am fascinated with technology because I believe in progress. People inevitably use technology to improve lives and help others. My childhood comprised of tinker with electronics that paved the way to building and selling of personal computers. This was the gateway that led me to completing my Bachelors in Computer Science, which facilitated me forward for a programming and web developing future. I completed a Full-Stack Web Developing certified cohort at the University of Minnesota, this gave me the skills and in combination with my passion of technology to build a better and stronger future for others and I. </p>
+                    <h5 class="text-center mt-1 highlighthName">Creative</h5>
+                    <p class="paraG">To be creative you must think outside of the box.   <img class="imgWrap1" src="./assets/images/headbulbpng.png"> I dwell in being a problem solver, which I can take the old ideas of yesterday and transform those ideas to the new ones of the future. Being creative in the technological world is being new and different from the norm. Web developing allows me to digitize my ideas in a form that can be manipulated from my own creativity. I envision myself being able to apply my skills with my creativity to transform any problems I face to solutions I create.</p>
+                    <h5 class="text-center mt-1 highlighthName">Fun</h5>
+                    <p class="  paraG"><img class="imgWrap2 " src="./assets/images/controllerpng.png">No matter what it boils down to, having fun is a necessity. I love to game on the PC. Gaming shows the path and possibilities of what might be a reality someday. I love sports because competition drives the best out of anyone, which I feel is my motivation to ensure that I demonstrate the best of my abilities to accomplish my goals.</p>
                 </div>
-
-
-                <div id="test1" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-                    <img id="myImg" src="./assets/images/meTiejpg.jpg" height="50%" width="100%" alt="Me">
-                    <div id="myModal" class="modal">
-
+                <div id="test1" class=" col-sm-4 ">
+                    <img id="myImg" src="./assets/images/meTiejpg2.jpg" class="img-responsive" style="width:100%; height:46.1%" alt="Me">
+                   <br> <div id="myModal" class="modal">
                         <!-- The Close Button -->
+                        
                         <span class="close">&times;</span>
-
                         <!-- Modal Content (The Image) -->
                         <img class="modal-content" id="img00">
-
                         <!-- Modal Caption (Image Text) -->
                         <div id="caption"></div>
                     </div>
-
-                    <div id="test4" class=" row">
-                        <div class="picPadding col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img id="myImg1" src="./assets/images/gradjpg.JPG" height="100%" width="100%" alt="Graudation Day">
-                            <div id="myModal1" class="modal">
-
-                                <!-- The Close Button -->
-                                <span class="close One">&times;</span>
-
-                                <!-- Modal Content (The Image) -->
-                                <img class="modal-content" id="img01">
-
-                                <!-- Modal Caption (Image Text) -->
-                                <div id="caption1"> </div>
-                            </div>
+                    <div class="picPadding">
+                        <img id="myImg1" src="./assets/images/vikes2.JPG" class="img-responsive" style="width:100%" alt="Graudation Day">
+                        <div id="myModal1" class="modal">
+                            <!-- The Close Button -->
+                            <span class="close One">&times;</span>
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img01">
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption1"> </div>
                         </div>
                     </div>
-
                 </div>
-                <div id="test2" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-                    <img id="myImg2" src="./assets/images/vikes.JPG" height="50%" width="100%" alt="Vikings SKOL">
-                    <div id="myModal2" class="modal">
-
-                        <!-- The Close Button -->
-                        <span class="close Two">&times;</span>
-
-                        <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="img02">
-
-                        <!-- Modal Caption (Image Text) -->
-                        <div id="caption2"> </div>
+                <div id="test3" class=" col-md-4 ">
+                    <div id="test2">
+                        <img id="myImg2" src="./assets/images/gradjpg.JPG" class="img-responsive" style="width:100%" alt="Vikings SKOL">
+                        <div id="myModal2" class="modal">
+                            <!-- The Close Button -->
+                            <span class="close Two">&times;</span>
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img02">
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption2"> </div>
+                        </div>
                     </div>
-
-                    <div id="test3" class=" row">
-                        <div class="picPadding col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-                            <img id="myImg3" src="./assets/images/rock.JPG" height="100%" width="100%" alt="Minnehaha Falls">
-                            <div id="myModal3" class="modal">
-
-                                <!-- The Close Button -->
-                                <span class="close Three">&times;</span>
-
-                                <!-- Modal Content (The Image) -->
-                                <img class="modal-content" id="img03">
-
-                                <!-- Modal Caption (Image Text) -->
-                                <div id="caption3"></div>
-                            </div>
-
+                    <div id="test4">
+                        <img id="myImg3" src="./assets/images/rock2.JPG" class="img-responsive" style="width:100%" alt="Minnehaha Falls">
+                        <div id="myModal3" class="modal">
+                            <!-- The Close Button -->
+                            <span class="close Three">&times;</span>
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img03">
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption3"></div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-    <section>
-        <h1 class="text-center sectionTitles">
+    <section id="skills">
+        
+        <div class="container graph-cont">
+            <h1 class="text-center sectionTitles">
             <hr>SKILLS
         </h1>
-        <div class="container graph-cont">
             <div class="row">
                 <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2">
                     <p class="text-center">HTML5/Css3</p>
@@ -264,128 +222,84 @@
     <h1 class="text-center sectionTitles">
         <hr>PROJECTS
     </h1>
-    <section>
+    <section id="projects">
         <div class="container-fluid">
             <div class="btn-group btn-group-toggle text-center col-xs-2 col-sm-12 col-md-12 col-lg-12" data-toggle="buttons" type="radio">
                 <button id='prjbtn1' class="btn btn-primary btn-lg active col-xs-2 col-sm-12 col-md-12 col-lg-12" data-toggle="collapse"
                     href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">FRONT-END
                     PROJECTS
                 </button>
-
                 <button id='prjbtn2' class="btn btn-primary btn-lg active  col-xs-2 col-sm-12 col-md-12 col-lg-12" type="button" data-toggle="collapse"
                     data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
                     BACK-END PROJECTS
                 </button>
-
                 <button id='prjbtn3' class="btn btn-primary btn-lg active  col-xs-2 col-sm-12 col-md-12 col-lg-12" type="button" data-toggle="collapse"
                     data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
                     ALL PROJECTS
                 </button>
-
             </div>
-
             <div class="row">
                 <div class="col-xs-2 col-sm-12 col-md-12 col-lg-12">
-
                     <div class="collapse multi-collapse" id="multiCollapseExample1">
-
                         <div class="col-xs-2 col-sm-6 col-md-12 col-lg-12 card card-body ">
-
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                                 <img class="prjImg" src="./assets/images/starwarsTrivia.jpeg"> <p class="prjPara">Star Wars
                                     Trivia
                                 </p>
-                                <button class=" col-xs-2 col-sm-12 col-md-12 col-lg-12 col-xl-2 btn btn-outline-danger"><a class="txtDec"
-                                        style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Github</a></button>
-                                <button class=" col-xs-2 col-sm-12 col-md-12 col-lg-12 col-xl-2 btn btn-outline-primary"><a class="txtDec"
-                                        style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Project</a></button>
+                                <button class=" col-xs-2 col-sm-12 col-md-12 col-lg-12 col-xl-2 btn btn-outline-danger"><a
+                                        class="txtDec" style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Github</a></button>
+                                <button class=" col-xs-2 col-sm-12 col-md-12 col-lg-12 col-xl-2 btn btn-outline-primary"><a
+                                        class="txtDec" style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Project</a></button>
                             </div>
                         </div>
-                        <!-- below -->
                     </div>
                 </div>
             </div>
-
             <div class="col-xs-2 col-sm-12 col-md-12 col-lg-12 pdfix">
-
                 <div class="collapse multi-collapse" id="multiCollapseExample2">
-
                     <div class="col-xs-2 col-sm-6 col-md-12 col-lg-12 card card-body">
-
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <img class="prjImg" src="./assets/images/planets.jpg"> <p class="prjPara">Planets Hangman</p>
-                                        
-                                <button class=" col-xs-2 col-sm-12 col-md-8 col-lg-6 col-xl-2 btn btn-outline-danger"><a class="txtDec"
-                                        style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Github</a></button>
-                                <button class=" col-xs-2 col-sm-12 col-md-8 col-lg-6 col-xl-2 btn btn-outline-primary"><a class="txtDec"
-                                        style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Project</a></button>
-                            </div>
+                            <img class="prjImg" src="./assets/images/planets.jpg"> <p class="prjPara">Planets Hangman</p>
+                            <button class=" col-xs-2 col-sm-12 col-md-8 col-lg-6 col-xl-2 btn btn-outline-danger"><a class="txtDec"
+                                    style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Github</a></button>
+                            <button class=" col-xs-2 col-sm-12 col-md-8 col-lg-6 col-xl-2 btn btn-outline-primary"><a class="txtDec"
+                                    style="text-decoration: none;" href="https://martttizzle.github.io/TriviaGame/">Project</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section>
         <h1 class="text-center sectionTitles">
             <hr>CONTACT
         </h1>
     </section>
-
-    <section>
+    <section >
+        <h6 id="contacts" class="text-center pb-3">Have a question or want to work together?</h6>
         <div class="container">
             <form class="needs-validation" novalidate>
                 <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <label for="validationCustom01">First name</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationCustom02">Last name</label>
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                        <label for="validationCustomUsername">Username</label>
+                    <div class="col-md-12 mb-3">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <span class="input-group-text">Name</span>
                             </div>
-                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend"
-                                required>
-                            <div class="invalid-feedback">
-                                Please choose a username.
-                            </div>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
                         </div>
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationCustom03">City</label>
-                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
-                        <div class="invalid-feedback">
-                            Please provide a valid city.
-                        </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
                     </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationCustom04">State</label>
-                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
-                        <div class="invalid-feedback">
-                            Please provide a valid state.
-                        </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Message</span>
                     </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationCustom05">Zip</label>
-                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
-                        <div class="invalid-feedback">
-                            Please provide a valid zip.
-                        </div>
-                    </div>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
                 </div>
                 <div class="form-group">
                     <div class="form-check">
@@ -398,32 +312,36 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button class="btn btn-primary" type="submit">Submit</button>
             </form>
         </div>
+        </div>
     </section>
-
     <section>
         <footer>
             <div class="container">
-                <p> fix nav </p>
-                <p> fix footer </p>
-                <p> input in form and redesign </p>
-                <p> add PROJECTS </p>
-                <p> add to url site </p>
-                <p> Copyright 2018 </p>
+
+                <div class="row">
+                    <h4 class=" pt-3 col text-center"> Follow Me:
+                        <a href="https://www.twitter.com/" target="_blank"> <img class="m-2 " src="./assets/images/tweet.png"
+                                alt="twitter" /></a>
+                        <a href="https://www.googleplus.com/" target="_blank"> <img class="m-2" src="./assets/images/googleplus.png"
+                                alt="googleplus" /></a>
+                    </h4>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                    <a class="col text-center" style="color:white" href="#homes"  > Home</a>
+                    <a class="col text-center" style="color:white" href="#abtsm" > About Me </a>
+                    <a class="col text-center" style="color:white" href="#skills"  >Skills</a>
+                    <a class="col text-center" style="color:white" href="#projects" >Projects</a>
+                    <a class="col text-center" style="color:white" href="#contacts" >Contact</a>
+                </div>
             </div>
+                <p class="col text-center" style="color:white">VINOD MARTEL RAMDIN Copyright &copy; 2018</p>
         </footer>
-
     </section>
-
-
-
-
-
     <script src="assets/javascript/script.js"></script>
     <script src="assets/javascript/navbar.js"></script>
-
 </body>
-
 </html>
