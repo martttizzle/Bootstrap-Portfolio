@@ -134,24 +134,30 @@ width: 100px;
 #test {
   
   background-color: rgb(255, 255, 255);
-  border: 1px solid #ffffff;
   margin-right: 0px;
+  
 }
-
+/*Tie pic*/
 #test1 {
   
   background-color: rgb(255, 255, 255);
   padding-left: 0px;
   padding-right: 0px;
+ 
   
 }
+
+/*VIkings Pic*/
 #test2 {
    
   background-color: rgb(255, 255, 255);
   padding-left: 0px;
   padding-right: 0px;
+  
 }
 
+
+/*graduation pic*/
 #test3 {
   
   background-color: rgb(255, 255, 255);
@@ -160,8 +166,9 @@ width: 100px;
   margin-left: 0px;
   margin-right: 0px;
   
+  
 }
-
+/*Rock Picture*/
 #test4 {
  
   background-color: rgb(255, 255, 255);
@@ -196,10 +203,11 @@ width: 100px;
   text-align: block;
   color: #000000;
   font-weight: 900;
-  font-size: 11.3px;
-  letter-spacing: 1px;
+  font-size: 11.5px;
+  letter-spacing: 1.5px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 10px;
   margin-bottom: 0px;
   text-shadow: 1px 1px 1px #ffffff;;
 }
@@ -1990,7 +1998,7 @@ button.btn-outline-primary:hover {
     }
   }
   
-  /********************************* 576 max pixels *************************************************************************************************/
+  /********************************* 576 max pixels ****************************************************************************576 max pixels***********/
   @media only screen and (max-width: 576px) {
     header {
       background-color: #252934;
@@ -2032,7 +2040,7 @@ button.btn-outline-primary:hover {
     }
   
     .sectionTitles {
-      padding-top: 60px;
+      padding-top: 50px;
       padding-bottom: 90px;
       padding-left: 0px;
       padding-right: 0px;
@@ -2082,11 +2090,11 @@ button.btn-outline-primary:hover {
       text-align: block;
       color: #000000;
       font-weight: 700;
-      font-size: 10px;
+      font-size: 10.0px;
       letter-spacing: 2.5px;
-      padding-right: 34px;
-      padding-left: 34px;
-      margin-bottom: 80px;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-bottom: 20px;
       text-shadow: 1px 1px 1px #ffffff;
     }
   
@@ -2408,7 +2416,7 @@ button.btn-outline-primary:hover {
   
   /********************************** 366 max pixels ************************************************************************/
   
-  @media (max-width: 366px) {
+  @media (max-width: 420px) {
     header {
       background-color: #252934;
       height: 100vh;
@@ -2497,11 +2505,11 @@ button.btn-outline-primary:hover {
     .paraG {
       text-align: block;
       color: #000000;
-      font-size: 11.5px;
-      letter-spacing: 2.5px;
+      font-size: 10.0px;
+      letter-spacing: 1.5px;
       padding-right: 24px;
       padding-left: 24px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       text-shadow: 1px 1px 1px #ffffff;
     }
   
