@@ -215,6 +215,11 @@ width: 100px;
   border: 1px solid #252934;
   margin-bottom: 8px;
 }
+
+#prjbtn1:hover, #prjbtn2:hover, #prjbtn3:hover {
+  background-color: #252934;
+}
+
 /*Project Img*/
 
 .prjImg {
@@ -476,20 +481,20 @@ button.btn-outline-primary:hover {
   color: #ffffff;
   font-weight: 700;
   width: 35%;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #252934;
-  border: 0.9px solid #252934;
-  padding: 2px;
+  border: 0.9px solid #ffffff;
+  padding: 5px;
 }
-
+/*Project Buttons*/
 button.btn-outline-primary {
   color: #252934;
   font-weight: 700;
   width: 35%;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #e31b6d;
-  border: 0.9px solid #252934;
-  padding: 2px;
+  border: 0.9px solid #ffffff;
+  padding: 5px;
 }
 
 button.btn-outline-danger:hover {
@@ -499,10 +504,21 @@ button.btn-outline-danger:hover {
 button.btn-outline-primary:hover {
   background-color: #252934;
 }
+.fEndBC {
+  border: 2px solid #252934;
+  background-color: #252934a8;
+}
+
+.bEndBC {
+  border: 2px solid #e31b6d;
+  background-color: #e31b6e75;
+}
+
 
 
   /************** FORM ******************/
 
+/*Submit Buttons*/
   button.btn.btn-primary {
     color: rgb(255, 255, 255);
     background-color: #e31b6d;
@@ -1903,7 +1919,7 @@ button.btn-outline-primary:hover {
        font-weight: bold;
        width: 50%;
        padding: 9.5px;
-       font-size: 18.5px;
+       font-size: 13.5px;
        background-color: #e31b6d;
        border: 1px solid #252934;
        margin-bottom: 8px;
@@ -1924,21 +1940,21 @@ button.btn-outline-primary:hover {
      button.btn-outline-danger {
        color: #ffffff;
        font-weight: 700;
-       width: 35%;
-       font-size: 12px;
+       width: 45%;
+       font-size: 9px;
        background-color: #252934;
        border: 0.9px solid #252934;
-       padding: 2px;
+       padding: 2.5px;
      }
    
      button.btn-outline-primary {
        color: #252934;
        font-weight: 700;
-       width: 35%;
-       font-size: 12px;
+       width: 45%;
+       font-size: 9px;
        background-color: #e31b6d;
        border: 0.9px solid #252934;
-       padding: 2px;
+       padding: 2.5px;
      }
    
      button.btn-outline-danger:hover {
@@ -1949,6 +1965,9 @@ button.btn-outline-primary:hover {
        background-color: #252934;
      }
    
+
+
+
      /************** FORM ******************/
    
      button.btn.btn-primary {
@@ -2490,8 +2509,9 @@ button.btn-outline-primary:hover {
     .paraG {
       text-align: block;
       color: #000000;
-      font-size: 10.0px;
+      font-size: 11.6px;
       letter-spacing: 1.5px;
+      line-height: 20px;
       padding-right: 24px;
       padding-left: 24px;
       margin-bottom: 30px;
