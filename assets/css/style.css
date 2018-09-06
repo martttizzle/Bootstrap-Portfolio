@@ -56,7 +56,6 @@ nav {
     color:#ffffff;
     background-color:  #000000;
    
- 
 }
 /*Adjusting padding for nav bar*/
 .naver{
@@ -80,7 +79,6 @@ nav {
    font-weight: bold;
    color:rgb(0, 0, 0);
 }
-
 
 /**Header Titles*/
 .sectionTitles {
@@ -149,7 +147,6 @@ width: 100px;
   padding-right: 0px;
 }
 
-
 /*graduation pic*/
 #test3 {
   background-color: rgb(255, 255, 255);
@@ -192,7 +189,7 @@ width: 100px;
   color: #000000;
   font-weight: 900;
   font-size: 11.5px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.0px;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -223,15 +220,16 @@ width: 100px;
 /*Project Img*/
 
 .prjImg {
-  height: 160px;
-  width: 190px;
-  border: 1.5px solid rgb(0, 0, 0);
+  height: 180px;
+  width: 290px;
+  border: 1.5px solid rgb(255, 255, 255);
 }
 /*Project Paragraph*/
 .prjPara {
   font-size: 28px;
-  color: #252934;
+  color: #ffffff;
   padding: 20px;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 /*Project & Github Buttons*/
@@ -681,7 +679,7 @@ button.btn-outline-primary:hover {
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
     .modal-content {
-      width: 100%;
+      width: 95%;
     }
   }
   
@@ -716,7 +714,7 @@ button.btn-outline-primary:hover {
       padding: 5px;
       font-size: 12px;
       width: 15%;
-  margin-top: 3%;
+      margin-top: 3%;
     }
     #seeWorkBtn:hover {
       background-color: #e31b6d;
@@ -1056,7 +1054,7 @@ button.btn-outline-primary:hover {
     }
   
    /********************** Project ***********************************/
-    #prjbtn1,
+     #prjbtn1,
      #prjbtn2,
      #prjbtn3 {
        text-align: center;
@@ -1074,12 +1072,13 @@ button.btn-outline-primary:hover {
      .prjImg {
        height: 90px;
        width: 90px;
-       border: 1.5px solid rgb(0, 0, 0);
+       border: 1.5px solid rgb(255, 255, 255);
      }
      /*Project Paragraph*/
      .prjPara {
        font-size: 15px;
-       color: #252934;
+       color: #ffffff;
+       text-shadow: 1px 1px 1px #000000;
      }
      /*Project & Github Buttons*/
      button.btn-outline-danger {
@@ -1496,12 +1495,13 @@ button.btn-outline-primary:hover {
      .prjImg {
        height: 90px;
        width: 90px;
-       border: 1.5px solid rgb(0, 0, 0);
+       border: 1.5px solid rgb(255, 255, 255);
      }
      /*Project Paragraph*/
      .prjPara {
        font-size: 15px;
-       color: #252934;
+       color: #ffffff;
+       text-shadow: 1px 1px 1px #000000;
      }
      /*Project & Github Buttons*/
      button.btn-outline-danger {
@@ -1567,7 +1567,7 @@ button.btn-outline-primary:hover {
   }
   
   
-  /********************************Media Query Header max-768px*********************************************/
+  /*******************************************************Media Query Header max-768px*************************************************************************************/
   
   @media only screen and (max-width: 768px) {
     header {
@@ -1929,12 +1929,13 @@ button.btn-outline-primary:hover {
      .prjImg {
        height: 90px;
        width: 90px;
-       border: 1.5px solid rgb(0, 0, 0);
+       border: 1.5px solid rgb(255, 255, 255);
      }
      /*Project Paragraph*/
      .prjPara {
        font-size: 15px;
-       color: #252934;
+       color: #ffffff;
+       text-shadow: 1px 1px 1px #000000;
      }
      /*Project & Github Buttons*/
      button.btn-outline-danger {
@@ -1965,9 +1966,6 @@ button.btn-outline-primary:hover {
        background-color: #252934;
      }
    
-
-
-
      /************** FORM ******************/
    
      button.btn.btn-primary {
@@ -2355,12 +2353,13 @@ button.btn-outline-primary:hover {
     .prjImg {
       height: 90px;
       width: 90px;
-      border: 1.5px solid rgb(0, 0, 0);
+      border: 1.5px solid rgb(255, 255, 255);
     }
     /*Project Paragraph*/
     .prjPara {
       font-size: 15px;
-      color: #252934;
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
     }
     /*Project & Github Buttons*/
     button.btn-outline-danger {
@@ -2773,12 +2772,13 @@ button.btn-outline-primary:hover {
     .prjImg {
       height: 90px;
       width: 90px;
-      border: 1.5px solid rgb(0, 0, 0);
+      border: 1.5px solid rgb(255, 255, 255);
     }
     /*Project Paragraph*/
     .prjPara {
       font-size: 15px;
-      color: #252934;
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
     }
     /*Project & Github Buttons*/
     button.btn-outline-danger {
