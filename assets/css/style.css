@@ -271,7 +271,6 @@ button.btn-outline-primary:hover {
 
  p.text-center {
   font-weight: bold;
-  color: rgb(17, 0, 255);
   padding-top: 10px;
  
 }
@@ -284,7 +283,9 @@ button.btn-outline-primary:hover {
   color: white;
   margin: 0 0 0 0;
   position: relative;
+  
 }
+
 .bar::before {
   content: "";
   width: 100%;
@@ -294,7 +295,9 @@ button.btn-outline-primary:hover {
   top: 0;
   z-index: -2;
   background: #252934;
+  border: 1.5px solid #000000;
 }
+
 .bar1::after {
   content: "";
   background: #e31b6d;
@@ -308,6 +311,7 @@ button.btn-outline-primary:hover {
   left: 0;
   z-index: -1;
   border-right: 5px solid gold;
+ 
 }
 .bar2::after {
   content: "";
@@ -322,6 +326,7 @@ button.btn-outline-primary:hover {
   left: 0;
   z-index: -1;
   border-right: 5px solid gold;
+ 
 }
 .bar3::after {
   content: "";
@@ -852,7 +857,7 @@ button.btn-outline-primary:hover {
       font-weight: bold;
       color: rgb(17, 0, 255);
       padding-top: 10px;
-     
+    
     }
     .bar {
       height: 30px;
@@ -873,6 +878,7 @@ button.btn-outline-primary:hover {
       top: 0;
       z-index: -2;
       background: #252934;
+      border: 1.5px double #000000;
     }
     .bar1::after {
       content: "";
@@ -887,6 +893,7 @@ button.btn-outline-primary:hover {
       left: 0;
       z-index: -1;
       border-right: 5px solid gold;
+       
     }
     .bar2::after {
       content: "";
@@ -1235,6 +1242,22 @@ button.btn-outline-primary:hover {
       height:90px;
       width: 90px;
     }
+
+    /* #test1 {
+      display: none;
+    }
+    #test2 {
+      display: none;
+    }
+  
+    #test3 {
+      display: none;
+    }
+  
+    #test4 {
+      display: none;
+    } */
+
     /*about me paragraph*/
   
     .paraG {
@@ -1286,6 +1309,8 @@ button.btn-outline-primary:hover {
       color: white;
       margin: 0 0 0 0;
       position: relative;
+     
+   
     }
     .bar::before {
       content: "";
@@ -1296,6 +1321,8 @@ button.btn-outline-primary:hover {
       top: 0;
       z-index: -2;
       background: #252934;
+      border: 1.5px double #000000;
+     
     }
     .bar1::after {
       content: "";
@@ -1730,6 +1757,8 @@ button.btn-outline-primary:hover {
       top: 0;
       z-index: -2;
       background: #252934;
+      border: 1.5px double #000000;
+      
     }
     .bar1::after {
       content: "";
@@ -2144,6 +2173,7 @@ button.btn-outline-primary:hover {
       color: white;
       margin: 0 0 0 0;
       position: relative;
+      
     }
     .bar::before {
       content: "";
@@ -2154,6 +2184,7 @@ button.btn-outline-primary:hover {
       top: 0;
       z-index: -2;
       background: #252934;
+      border: 1.5px double #000000;
     }
     .bar1::after {
       content: "";
@@ -2572,6 +2603,7 @@ button.btn-outline-primary:hover {
       top: 0;
       z-index: -2;
       background: #252934;
+      border: 1.5px double #000000;
     }
     .bar1::after {
       content: "";
