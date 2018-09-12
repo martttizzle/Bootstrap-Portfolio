@@ -30,43 +30,35 @@ app.post('/send', (req, res) => {
   <p> You have a new contact request </p>
   <h3> Contact Details</h3>
   <ul>
-    <li>Name: ${req.body.First_Name}</li>
-    <li>Name: ${req.body.Last_Name}</li>
-    <li>Name: ${req.body.Email}</li>
+    <li>First Name: ${req.body.First_Name}</li>
+    <li>Last Name: ${req.body.Last_Name}</li>
+    <li>Email: ${req.body.Email}</li>
   </ul>
   <h3>Message</h3>
-  <p>Name: ${req.body.Message}</p>
+  <p>Message: ${req.body.Message}</p>
   `;
       // create reusable transporter object using the default SMTP transport
       let transporter = nodemailer.createTransport({
         host: 'mail.mrvdevelopment.com',
-        port: 25,
+        port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
             user:'info@mrvdevelopment.com', // generated ethereal user
-            pass: 'Martel83#' // generated ethereal password
+            pass: 'Vikings83!' // generated ethereal password
         }
-        // ,
-        // tls: {
-        //     rejectUnauthorized: false
-        // }
+        ,
+        tls: {
+            rejectUnauthorized: false
+        }
     });
-    transporter.verify(function(error, success) {
-      if (error) {
-           console.log(error);
-      } else {
-           console.log('Server is ready to take our messages');
-      }
-   });
-
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: 'MrVDevEmail', // sender address
-        to: 'mvramdin@gmail.com', // list of receivers
+        from: 'MR.V Development <info@mrvdevelopment.com>', // sender address
+        to: 'martel1983@yahoo.com, mvramdin@gmail.com', // list of receivers
         subject: 'New Contact Info', // Subject line
         text: 'Hello world?', // plain text body
-        html: '<b>Hello world?</b>' // html body
+        html: output // html body
     };
 
     // send mail with defined transport object
