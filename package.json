@@ -5,7 +5,7 @@
   "main": "gmailerNode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon gmailerNode.js"
+    "start": "node gmailerNode.js"
   },
   "author": "MRVDevelopment",
   "license": "ISC",
