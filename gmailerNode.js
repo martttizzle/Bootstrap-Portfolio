@@ -82,5 +82,6 @@ app.post('/send', (req, res) => {
 
 
 
-const PORT = 3000; 
-app.listen(PORT || 3000, () => console.log("Server listening on " + PORT ));
+const PORT = process.env.PORT || 3000; 
+
+app.listen(PORT, () => console.log("Server listening on " + PORT ));
