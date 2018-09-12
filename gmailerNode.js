@@ -1,4 +1,4 @@
-const express = require('express');
+ const express = require('express');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
@@ -43,13 +43,22 @@ app.post('/send', (req, res) => {
         port: 25,
         secure: false, // true for 465, false for other ports
         auth: {
-            user:'infotome@mrvdevelopment.com', // generated ethereal user
+            user:'info@mrvdevelopment.com', // generated ethereal user
             pass: 'Martel83#' // generated ethereal password
-        },
-        tls:{
-          rejectUnauthorized:true
         }
+        // ,
+        // tls: {
+        //     rejectUnauthorized: false
+        // }
     });
+    transporter.verify(function(error, success) {
+      if (error) {
+           console.log(error);
+      } else {
+           console.log('Server is ready to take our messages');
+      }
+   });
+
 
     // setup email data with unicode symbols
     let mailOptions = {
