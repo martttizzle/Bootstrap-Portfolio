@@ -1,8 +1,9 @@
- const express = require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
+require('dotenv').config()
 
 const app = express();
 
@@ -30,12 +31,12 @@ app.post('/send', (req, res) => {
   <p> You have a new contact request </p>
   <h3> Contact Details</h3>
   <ul>
-    <li>First Name: ${req.body.First_Name}</li>
-    <li>Last Name: ${req.body.Last_Name}</li>
-    <li>Email: ${req.body.Email}</li>
+    <li>First Name:<strong> ${req.body.First_Name}</strong></li>
+    <li>Last Name:<strong> ${req.body.Last_Name}</strong></li>
+    <li>Email:<strong> ${req.body.Email}</strong></li>
   </ul>
-  <h3>Message</h3>
-  <p>Message: ${req.body.Message}</p>
+  <h3>Message:</h3>
+  <p>${req.body.Message}</p>
   `;
       // create reusable transporter object using the default SMTP transport
       let transporter = nodemailer.createTransport({
@@ -43,8 +44,8 @@ app.post('/send', (req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user:'info@mrvdevelopment.com', // generated ethereal user
-            pass: 'Vikings83!' // generated ethereal password
+            user: process.env.USER, // generated ethereal user
+            pass: process.env.PASS // generated ethereal password
         }
         ,
         tls: {
