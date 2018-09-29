@@ -1599,7 +1599,7 @@ button.btn-outline-primary:hover {
   
   /*******************************************************Media Query Header max-768px*************************************************************************************/
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     header {
       background-color: #252934;
       height: 100vh;
