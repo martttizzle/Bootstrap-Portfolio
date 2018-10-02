@@ -58,7 +58,7 @@ app.post('/send', (req, res) => {
         from: 'MR.V Development <info@mrvdevelopment.com>', // sender address
         to: 'martel1983@yahoo.com, mvramdin@gmail.com', // list of receivers
         subject: 'New Contact Info', // Subject line
-        text: 'Hello world?', // plain text body
+        text: 'Hello', // plain text body
         html: output // html body
     };
 
